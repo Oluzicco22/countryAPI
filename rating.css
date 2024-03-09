@@ -1,0 +1,170 @@
+/* Feel free to remove these styles or customise in your own stylesheet 👍 */
+
+.attribution { 
+  font-size: 11px;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+:root{
+  --body-bg : hsl(216, 12%, 8%);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  background: var(--body-bg);
+  min-height: 99vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.main {
+  background-color: hsl(213, 19%, 18%);
+  width: 22%;
+  padding: 30px;
+  border-radius: 30px;
+  display: grid;
+  gap: 30px;
+  font-family: "Overpass", sans-serif;
+}
+.appreciate{
+  display: none;
+  position: absolute;
+  background: var(--body-bg);
+}
+
+.star-container {
+background-color: hsl(213, 19%, 23%);
+border-radius: 50%;
+width: fit-content;
+height: fit-content;
+padding: 15px;
+display: flex;
+}
+
+.details-container {
+  /* width: 50%; */
+  display: grid;
+  gap: 10px;
+}
+.details-container h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 32px;
+
+}
+.details-container p {
+  color: hsl(216, 12%, 54%);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.ratings {
+  display: grid;
+  gap: 25px;
+}
+.rating-options {
+  display: flex;
+  gap: 24px;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+.rating-nums {
+  background-color: hsl(213, 19%, 23%);
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  font-family: "Overpass", sans-serif;
+  cursor: pointer;
+}
+.rating-nums:hover {
+  background-color: hsl(25, 97%, 53%);
+  transition: all ease-in .2s;
+}
+
+.submit-rating {
+  display: flex;
+  /* justify-content: center; */
+  text-align: center;
+  cursor: pointer;
+}
+.submit-btn {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 50px;
+  width: 100%;
+  height: 35px;
+  cursor: pointer;
+}
+.submit-btn:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(0, 0%, 100%);
+  transition: all ease-in .2s;
+}
+
+/* Appreciation styling */
+
+.display-msg {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.selection {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(213, 19%, 23%);
+  padding: 10px 20px;
+  border-radius: 20px;
+  width: fit-content;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+.selection p {
+  font-size: 16px;
+}
+
+.message {
+  width: 95%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+.message h1 {
+  color: hsl(0, 0%, 100%);
+}
+.message p {
+  color: hsl(213, 19%, 54%);
+  font-size: 17px;
+  line-height: 1.7;
+}
